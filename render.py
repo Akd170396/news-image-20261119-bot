@@ -202,8 +202,8 @@ def main():
          "evacuated, landfall due Friday.",
          lambda dr, x, y, c: draw_cyclone(dr, x, y, c)),
         (BRONZE, "SPACE  ·  SCIENCE", "VOYAGER 1, ONE LIGHT-DAY AWAY",
-         "NASA confirms the probe's signal now takes a full day to reach "
-         "Earth — launched in 1977.",
+         "NASA marks the milestone at JPL today — a signal now takes a "
+         "full day to reach Earth.",
          lambda dr, x, y, c: draw_satellite(dr, x, y, c)),
     ]
     for i, (accent, kicker, headline, sub, icon_fn) in enumerate(stories):
